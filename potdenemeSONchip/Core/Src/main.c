@@ -41,7 +41,6 @@
 
 /* Private variables ---------------------------------------------------------*/
 ADC_HandleTypeDef hadc1;
-uint16_t adc_degeri;
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -56,6 +55,7 @@ static void MX_ADC1_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+uint16_t adc_degeri;
 
 /* USER CODE END 0 */
 
